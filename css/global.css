@@ -1,0 +1,124 @@
+.wp{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;            
+}
+.page{
+    font-family:"微软雅黑";font-size:5vw;padding:0 5vw;
+    text-align: center;
+	
+}
+.page1{
+    background:url(../img/page1.png) no-repeat;
+	color:#FFF
+}
+.page1 h1{font-size:15vw;position:relative;top:15%;}
+.page1 p{position: relative;top:20%;margin:auto;padding:0 10vw;}
+.page2{
+    background:url(../img/page2.1.png)no-repeat;color:#FFF;
+}
+.page3{
+    background: rgb(101,204,203);
+}
+.page3 .part1{width:80vw;position:relative;top:5%;margin:auto;padding: 5vw;}
+
+.page3  img{
+  width:90vw;
+}
+
+.page3 .part3{width:80vw;margin:auto;}
+.page4{
+    background: rgb(101,204,203);
+}
+.page4 .part1{width:80vw;position:relative;top:5%;margin:auto;background:rgb(242,228,195);font:#000;padding: 5vw;
+   -moz-box-shadow:10px 10px 10px #ccc;            
+-webkit-box-shadow:10px 10px 10px #ccc;         
+        box-shadow:10px 10px 10px #ccc; }
+.page5 {background: rgb(101,204,203);}
+.page5 p{width:80vw;position:relative;top:3%;margin:auto;background:rgb(247,254,251);font:#000;padding: 5vw;
+   -moz-box-shadow:10px 10px 10px #ccc;            
+-webkit-box-shadow:10px 10px 10px #ccc;         
+        box-shadow:10px 10px 10px #ccc; }
+.page5-1{background: rgb(122,212,226);}
+.page6 {background: rgb(122,212,226);}
+.page6 .left{position: relative;top: 5%;width: 80vw;margin: 0 auto;}
+.page6 .left p{width:30vw;background:#FF0;color:#C93;border:#C30;position:relative;top:1vh; margin:0 auto;}
+.page6 .right p{width:80vw;position:relative;top:3%;margin:auto;background:rgb(247,254,251);font:#000;padding: 5vw;
+   -moz-box-shadow:10px 10px 10px #ccc;            
+-webkit-box-shadow:10px 10px 10px #ccc;         
+        box-shadow:10px 10px 10px #ccc; }
+.page6 .right{position:relative;bottom:-13vh;}
+.page6-1 {
+    background: #F5F5DC;
+}
+.page6-1 img{
+    width: 90vw;
+	position: relative;bottom: 1vh;
+}
+
+.page7{
+	background:url(../img/page7.png)}
+.page .shadow{
+  width: 90vw;
+  background-color: #000;
+  /* for IE */
+  filter:alpha(opacity=60);
+  /* CSS3 standard */
+  opacity:0.6;
+	}
+.page7 p{color:#FFF;margin:5vh 5vw;padding:5vh 5vw;
+}
+
+/* 箭头 */
+@-webkit-keyframes start {
+    0%,30% {
+        opacity: 0.2;
+        -webkit-transform: translate(0,10px);
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: translate(0,0);
+    }
+    100% {
+        opacity: 0.2;
+        -webkit-transform: translate(0, -5px);
+    }
+}
+@keyframes start {
+    0%,30% {
+        opacity: 0.2;
+        transform: translate(0,10px);
+    }
+    60% {
+        opacity: 1;
+        transform: translate(0,0);
+    }
+    100% {
+        opacity: 0.2;
+        transform: translate(0, -5px);
+    }
+}
+.start{
+    position: fixed;
+    left: 50%;
+    margin-left: -17px;
+    top: 95%;
+    margin-top: -34px;
+    width: 34px;
+    height: 34px;
+}
+.start b{
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    margin-left: -9px;
+    width: 19px;
+    height: 12px;
+    background:url(../img/arrow.png);
+    background-size: 100% 100%;
+    -webkit-animation: start 1.5s infinite ease-in-out;
+    animation: start 1.5s infinite ease-in-out;
+}
